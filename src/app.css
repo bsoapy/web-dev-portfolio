@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% { transform: translateX(-150%); }
+  100% { transform: translateX(100vw); }
+}
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, button, input, label, select, textarea, hr {
+  color: #fefef2;
+  font-weight: 400 !important;
+}
+
+.bg-primary {
+  background-color: #F6F5E8;
+}
+
+.text-primary {
+  color: #F6F5E8;
+}
+
+.border-primary {
+  border-color: #F6F5E8;
+}
+
+.border-opaque {
+  border-color: rgba(246, 245, 232, 0.5);
+}
+
+.opacity-75{
+  opacity: 0.75 !important;
+}
+
+.bg-dark{
+  background-color: #151515;
+}
+
+.underline-animation::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px; /* Adjust the thickness of the underline */
+  background: currentColor; /* Use the text color for the underline */
+  transition: width 0.3s ease-in-out; /* Adjust the speed of the animation */
+}
+
+.underline-animation{
+  transition: opacity 0.3s ease-in-out;
+}
+
+.underline-animation:hover{
+  opacity: 0.8;
+}
+
+.underline-animation:hover::after {
+  width: 100%;
+}
