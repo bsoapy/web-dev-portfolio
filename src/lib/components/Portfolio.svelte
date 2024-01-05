@@ -11,22 +11,22 @@
       title: 'Patel & Co',
       subtitle: 'Barbershop',
       url: 'patel-co.co.uk',
-      bg: 'patel-co-mockup.png',
-      favicon: 'patel-co-favicon.png',
+      bg: 'patel-co/mockup.png',
+      favicon: 'patel-co/favicon.png',
     },
     {
       title: 'Legally Literate',
       subtitle: 'Legal Advice for Students',
       url: 'legallyliterate.site',
-      bg: 'patel-co-mockup.png',
-      favicon: 'legally-literate-favicon.png',
+      bg: 'legally-literate/mockup.jpg',
+      favicon: 'legally-literate/favicon.png',
     },
     {
       title: 'Refine Aesthetics',
       subtitle: 'Nurse Practitioner',
       url: 'refineaestheticsbyalison.com',
-      bg: 'refine-mockup.png',
-      favicon: 'refine-favicon.png',
+      bg: 'refine-aesthetics/mockup.png',
+      favicon: 'refine-aesthetics/favicon.png',
     },
   ];
 
